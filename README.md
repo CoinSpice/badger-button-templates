@@ -17,3 +17,11 @@ Step two is inserting one or more buttons in your page. Edit the field ```data-t
 <!-- insert the button anywhere -->
 <button class="badger-button" data-to="bitcoincash:qq6e3seenwkhjqv88vavrlpfy7wc6mrzt5xqu0w5ch" data-satoshis="1000"><span>Donate 1000 satoshis</span></button>
 ```
+
+Optional step three is to customize the style of your button using CSS.
+
+```css
+.badger-button {
+  /* your styling here */
+}
+```
