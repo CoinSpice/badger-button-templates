@@ -20,8 +20,7 @@ There are 2 to 3 steps to follow to set up the Badger Button donation button.
 
 At this point your button will look very basic like this:
 
-<!-- insert the button anywhere -->
-<button class="badger-button" data-text="Donate" data-to="bitcoincash:qq6e3seenwkhjqv88vavrlpfy7wc6mrzt5xqu0w5ch" data-satoshis="1000"><span>Donate 1000 satoshis</span></button>
+![button](http://image.noelshack.com/fichiers/2018/48/6/1543672118-screenshot-2018-12-01-at-20-48-00.png)
 
 
 ##### 3. Optional step three is to customize the style of your button using CSS.
@@ -31,6 +30,3 @@ At this point your button will look very basic like this:
   /* your styling here */
 }
 ```
-
-<!-- insert this at the end of the page before the closing body tag -->
-<script src="https://badgerwallet.cash/button.js"></script>
