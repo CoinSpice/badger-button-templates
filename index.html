@@ -19,11 +19,6 @@
                 web4bch.bch.sendTransaction(txParams, (err, res) => {
                   if (err) return
 
-                  var paywallId = badgerButton.getAttribute("data-paywall-id")
-                  if (paywallId) {
-                    // do something when payment received
-                  }
-
                   var successCallback = badgerButton.getAttribute("data-success-callback")
                   if (successCallback) {
                     window[successCallback](res)
